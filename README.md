@@ -1,5 +1,5 @@
 # teamWebsiteCSS
-GIMM 300 team project 3
+GIMM 300 team project 2
 
 
 Team Website: CSS
