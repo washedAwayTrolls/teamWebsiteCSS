@@ -13,6 +13,25 @@ p {
     
 }
 
+.blueBackground {
+    background-color:blue;
+    color:yellow;
+}
+
+.nathanTitle {
+    text-align:center;
+    font-size:xx-large;
+    font-family:'Courier New', Courier, monospace;
+    padding-top:20px;
+}
+
+.nathanAboutTitle {
+    text-align:center;
+    font-size:large;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+
 
 /*Lexi*/
 
