@@ -32,7 +32,15 @@ p {
     
 }
 
-
+#banner {
+    text-align:center;
+    
+    background-color:#D89F3A;
+    border-radius: 20px;
+    
+    padding: 107px 101px 0 102px;
+    margin-bottom: 1.5rem;
+}
 /*Lexi*/
 
 /*Carlos*/
