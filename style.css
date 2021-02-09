@@ -57,10 +57,10 @@ body {
 }
 .row .box .image {
   width:100%;
-  max-height: 250px;
 }
 .row .box .image img {
   max-width:100%;
+  max-height: 250px;
   border-radius: 10px 10px 0 0;
   transition: 250ms all;
 }
