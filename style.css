@@ -229,6 +229,7 @@ a.btn-gold:hover, a.btn-gold:active {
   background: linear-gradient(to right, #a56fa6, #907fdb);
   width: 100%;
   height: 100%;
+  color: #fff;
 }
 
 .emilyBanner {
