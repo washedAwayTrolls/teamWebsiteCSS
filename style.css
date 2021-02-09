@@ -222,7 +222,7 @@ a.btn-gold:hover, a.btn-gold:active {
 /*------------------------------------------- Emily -------------------------------------------*/
 .emilyTitle {
   text-align:center;
-  font-size:xx-large;
+  font-size: 60px;
   font-family:'copperplate', fantasy;
   padding-top:20px;
   padding-bottom: 20px;
@@ -231,5 +231,22 @@ a.btn-gold:hover, a.btn-gold:active {
   height: 100%;
 }
 
+.emilyBanner {
+  width: 100%;
+  position: absolute;
+}
+
+.emilyBanner ul{
+  height: 50px;
+  float: left;
+}
+
+.emilyBanner ul li{
+  display: inline-block;
+  padding: 70px 15px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+}
 
 /*------------------------------------------- Tim -------------------------------------------*/
