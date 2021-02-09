@@ -1,5 +1,5 @@
 
-/* General Styles */
+/*------------------------------------------- General Styles -------------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&family=Ovo&display=swap');
 h1 {
   font-family: font-family: 'Lato', sans-serif;
@@ -42,15 +42,7 @@ body {
   margin:0;
 }
 
-/*Nathan*/
-h2 {
-    font-size:x-large;
-    font-family: Acme;
-}
-p {
-    font-size:medium;
-    font-family: Lato;
-}
+/*------------------------------------------- Nathan -------------------------------------------*/
 .teamNames {
     color:cornflowerblue;
 
@@ -84,7 +76,7 @@ p {
     padding: 107px 101px 0 102px;
     margin-bottom: 1.5rem;
 }
-/*Lexi*/
+/*------------------------------------------- Lexi -------------------------------------------*/
 body.lexi {
   margin:0;
   background-color:#E0E0E0;
@@ -175,8 +167,8 @@ a.btn-gold:hover, a.btn-gold:active {
   opacity: 0.25;
 }
 
-/*Carlos*/
+/*------------------------------------------- Carlos -------------------------------------------*/
 
-/*Emily*/
+/*------------------------------------------- Emily -------------------------------------------*/
 
-/*Tim*/
+/*------------------------------------------- Tim -------------------------------------------*/
