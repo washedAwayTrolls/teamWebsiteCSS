@@ -79,6 +79,12 @@ body {
 .row .box .content {
   padding: 25px;
 }
+#banner {
+    text-align:center;
+    background-color:#D89F3A;
+    padding: 180px 0;
+    margin: 0 auto;
+}
 
 /*------------------------------------------- Nathan -------------------------------------------*/
 .teamNames {
@@ -103,16 +109,6 @@ body {
     font-size:large;
     font-family:'Courier New', Courier, monospace;
 
-}
-
-#banner {
-    text-align:center;
-
-    background-color:#D89F3A;
-    border-radius: 20px;
-
-    padding: 107px 101px 0 102px;
-    margin-bottom: 1.5rem;
 }
 /*------------------------------------------- Lexi -------------------------------------------*/
 body.lexi {
