@@ -5,31 +5,37 @@ h1 {
   font-family:  'Lato', sans-serif;
   font-size: 60px;
   line-height: 72px;
+  margin:0;
 }
 h2 {
   font-family:  'Lato', sans-serif;
   font-size: 48px;
   line-height: 60px;
+  margin:0;
 }
 h3 {
   font-family:  'Lato', sans-serif;
   font-size: 36px;
   line-height: 48px;
+  margin:0;
 }
 h4 {
   font-family:  'Lato', sans-serif;
   font-size: 24px;
   line-height: 36px;
+  margin:0;
 }
 h5 {
   font-family:  'Lato', sans-serif;
   font-size: 21px;
   line-height: 24px;
+  margin:0;
 }
 h6 {
   font-family: 'Lato', sans-serif;
   font-size: 18px;
   line-height: 21px;
+  margin:0;
 }
 p {
   font-family: 'Open Sans', sans-serif;
@@ -37,6 +43,7 @@ p {
   margin:0;
   line-height: 1.8;
   color:#353535;
+  margin:0;
 }
 body {
   margin:0;
@@ -50,16 +57,18 @@ body {
 }
 .row .box .image {
   width:100%;
+  max-height: 250px;
 }
 .row .box .image img {
   max-width:100%;
+  border-radius: 10px 10px 0 0;
 }
 .row .box {
   width:33.333%;
   flex:1;
   margin:10px;
   box-shadow: 0 3px 20px rgba(0, 0, 0, 0.15);
-  border: 1px solid #eee;
+  border: 5px solid #282828;
   background-color:#fff;
   border-radius: 10px;
 }
