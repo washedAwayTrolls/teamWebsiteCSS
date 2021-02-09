@@ -51,7 +51,7 @@ body {
 /*------------------------------------------- INDEX -------------------------------------------*/
 .row {
   display: flex;
-  padding: 160px 80px;
+  padding: 80px;
   flex-wrap: wrap;
   background-color: #212121;
 }
