@@ -57,23 +57,39 @@ body {
 }
 .row .box .image {
   width:100%;
-  max-height: 250px;
 }
 .row .box .image img {
-  max-width:100%;
+  width:100%;
+  max-height: 200px;
   border-radius: 10px 10px 0 0;
+  transition: 250ms all;
+  object-fit: cover;
+}
+.row .box .image img:hover {
+  opacity: 0.65;
 }
 .row .box {
   width:33.333%;
   flex:1;
   margin:10px;
   box-shadow: 0 3px 20px rgba(0, 0, 0, 0.15);
-  border: 5px solid #282828;
   background-color:#fff;
   border-radius: 10px;
 }
 .row .box .content {
   padding: 25px;
+}
+#banner {
+    text-align:center;
+    background-color:#D89F3A;
+    padding: 80px 0;
+    margin: 0 auto;
+}
+#banner h1 {
+  color: #fff;
+  font-size: 72px;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
 /*------------------------------------------- Nathan -------------------------------------------*/
@@ -99,16 +115,6 @@ body {
     font-size:large;
     font-family:'Courier New', Courier, monospace;
 
-}
-
-#banner {
-    text-align:center;
-
-    background-color:#D89F3A;
-    border-radius: 20px;
-
-    padding: 107px 101px 0 102px;
-    margin-bottom: 1.5rem;
 }
 /*------------------------------------------- Lexi -------------------------------------------*/
 body.lexi {
