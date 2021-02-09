@@ -41,6 +41,20 @@ p {
 body {
   margin:0;
 }
+/*------------------------------------------- INDEX -------------------------------------------*/
+.row {
+  display: flex;
+  padding: 60px 80px;
+  flex-wrap: wrap;
+}
+.row .box {
+  width:33.333%;
+  flex:1;
+  margin:10px;
+}
+.row .box .content {
+  padding: 15px;
+}
 
 /*------------------------------------------- Nathan -------------------------------------------*/
 .teamNames {
