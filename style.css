@@ -241,9 +241,27 @@ a.btn-gold:hover, a.btn-gold:active {
   float: left;
 }
 
-.emilyBanner ul li{
+.emilyBanner ul a{ 
   display: inline-block;
   padding: 70px 15px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+}
+
+.emilyWeirdBanner {
+  width: 100%;
+  position: absolute;
+}
+
+.emilyWeirdBanner ul{
+  height: 50px;
+  float: left;
+}
+
+.emilyWeirdBanner ul a{ 
+  display: inline-block;
+  padding: 180px 15px;
   text-transform: uppercase;
   color: #fff;
   font-size: 20px;
