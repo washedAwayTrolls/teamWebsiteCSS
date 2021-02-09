@@ -51,7 +51,7 @@ body {
 /*------------------------------------------- INDEX -------------------------------------------*/
 .row {
   display: flex;
-  padding: 60px 80px;
+  padding: 160px 80px;
   flex-wrap: wrap;
   background-color: #212121;
 }
@@ -90,6 +90,16 @@ body {
   font-size: 72px;
   font-weight: 900;
   text-transform: uppercase;
+}
+footer {
+  background-color: #D89F3A;
+  padding:80px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+  color:#fff;
 }
 
 /*------------------------------------------- Nathan -------------------------------------------*/
