@@ -195,5 +195,16 @@ a.btn-gold:hover, a.btn-gold:active {
 /*------------------------------------------- Carlos -------------------------------------------*/
 
 /*------------------------------------------- Emily -------------------------------------------*/
+.emilyTitle {
+  text-align:center;
+  font-size:xx-large;
+  font-family:'copperplate', fantasy;
+  padding-top:20px;
+  padding-bottom: 20px;
+  background: linear-gradient(to right, #a56fa6, #907fdb);
+  width: 100%;
+  height: 100%;
+}
+
 
 /*------------------------------------------- Tim -------------------------------------------*/
