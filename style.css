@@ -169,6 +169,32 @@ footer a {
   75%  {background-color:green; left:0px; top:200px;}
   100% {background-color:red; left:0px; top:0px;}
 }
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url(wave.png);
+  background-size: 1000px 100px;
+}
+
+
+
+.wave {
+  animation: wave 30s linear infinite;
+}
+
+@keyframes wave {
+  0% {
+    background-position-x: 0;
+
+  }
+  100% {
+    background-position-x: 1000px;
+  }
+}
 /*------------------------------------------- Lexi -------------------------------------------*/
 body.lexi {
   margin:0;
