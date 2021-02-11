@@ -298,6 +298,11 @@ a.btn-gold:hover, a.btn-gold:active {
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
+#red{
+  background: red;
+  left: 27%;
+  animation-timing-function: cubic-bezier(0,0,0.58,1);
+}
 @keyframes bounce {
   0% {
     top: 0px;
@@ -309,6 +314,7 @@ a.btn-gold:hover, a.btn-gold:active {
     top: 0px;
   }
 }
+
 
 /*------------------------------------------- Emily -------------------------------------------*/
 .emilyTitle {
