@@ -230,14 +230,101 @@ body.lexi {
   background-color:#E0E0E0;
 }
 /* Hero */
-.lexi .hero {
+/*.lexi .hero {
   padding: 150px 0;
   background-image: url(lexi-hero.png);
   background-size: cover;
   background-position: center;
   text-align: center;
   border-bottom: 10px solid #353535;
+}*/
+.lexi .hero {
+  height:550px;
+  width:100%;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  border-bottom: 10px solid #353535;
 }
+.lexi .hero .hero-bg {
+  position: absolute;
+  top:0;
+  left: 0;
+  width:100%;
+  height:100%;
+  background-image: linear-gradient(75deg, #AA590F, #E89B00);
+  z-index: -1;
+}
+
+@function dots($n) {
+  $value: '#{random(2000)}px #{random(2000)}px #767676';
+  @for $i from 2 through $n {
+    $value: '#{$value} , #{random(2000)}px #{random(2000)}px #767676';
+  }
+  @return unquote($value);
+}
+
+// store random stars
+$dots-dotsone: stars(700);
+$dots-dotstwo: stars(200);
+
+.dots {
+  z-index: -1;
+  overflow: hidden;
+  top:0;
+  left:0;
+  width:100%;
+  height:100vh;
+  transition: opacity 1s ease-in-out;
+}
+
+.dots > .dotsone {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background:transparent;
+  box-shadow: $dots-dotsone;
+  animation: dotsAnimation 50s linear infinite;
+
+&:after {
+  content:"";
+  position: absolute;
+  top:2000px;
+  width:10px;
+  height:10px;
+  background:transparent;
+  box-shadow: $dots-dotsone;
+  }
+}
+
+.dots > .dotstwo {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background:transparent;
+  box-shadow: $dots-dotstwo;
+  animation: dotsAnimation 100s linear infinite;
+
+&:after {
+  content:"";
+  position: absolute;
+  top:2000px;
+  width:20px;
+  height:20px;
+  background:transparent;
+  box-shadow: $dots-dotstwo;
+  }
+}
+
+@keyframes dotsAnimation {
+  from {
+    transform: translateY(-2000px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
 .lexi .hero h1 {
   color:#fff;
   font-weight: 800;
