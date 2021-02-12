@@ -103,7 +103,10 @@ footer a {
   text-decoration: none;
   color:#fff;
 }
-
+.row h2 {
+  color:#4f4f4f;
+  text-align: center;
+}
 /*------------------------------------------- Nathan -------------------------------------------*/
 .teamNames {
     color:cornflowerblue;
@@ -392,7 +395,7 @@ a.btn-gold:hover, a.btn-gold:active {
   float: left;
 }
 
-.emilyBanner ul a{ 
+.emilyBanner ul a{
   display: inline-block;
   padding: 70px 15px;
   text-transform: uppercase;
@@ -410,7 +413,7 @@ a.btn-gold:hover, a.btn-gold:active {
   float: left;
 }
 
-.emilyWeirdBanner ul a{ 
+.emilyWeirdBanner ul a{
   display: inline-block;
   text-transform: uppercase;
   color: #fff;
