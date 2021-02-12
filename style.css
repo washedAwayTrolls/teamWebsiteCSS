@@ -244,38 +244,68 @@ body.lexi {
   display: inline-block;
   text-align: center;
   border-bottom: 10px solid #353535;
-}
-.lexi .hero .hero-bg {
-  position: absolute;
-  top:0;
-  left: 0;
-  width:100%;
-  height:100%;
   background-image: linear-gradient(75deg, #AA590F, #E89B00);
-  z-index: -1;
-}
-.lexi .hero .hero-bg::after {
-  background-image: linear-gradient(75deg, #AA590F, #E89B00);
-  background-color:#fff;
-  mix-blend-mode: overlay;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width:20%;
-  height: 100%;
-  animation-name: swiper-no-swiping;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  z-index: 1;
+  overflow: hidden;
 }
 
-@@keyframes swiper-no-swiping {
-  0% {left:0;}
-  25% {left: 50%;}
-  45% {left: 100%;}
-  55% {left: 100%;}
-  75% {left: 50%;}
-  100% {left:0}
+.lexi .hero .hero-box {
+  background-color:#fff;
+  mix-blend-mode: overlay;
+  opacity: 0.15;
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width:20%;
+  height: 500%;
+  animation-name: swiper-no-swiping;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  z-index: 1;
+  transform: rotate(180deg);
+}
+.lexi .hero .particlesOne {
+  background-image: url(imagine.png);
+  background-repeat: repeat;
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 500%;
+  height:500%;
+  opacity: 0.05;
+  transform: rotate(15deg);
+  animation-name: yeet-one;
+  animation-duration: 120s;
+  animation-iteration-count: infinite;
+}
+
+.lexi .hero .particlesTwo {
+  background-image: url(imagine.png);
+  background-repeat: repeat;
+  position: absolute;
+  top: 0;
+  left: -65.25%;
+  width: 500%;
+  height:500%;
+  opacity: 0.1;
+  transform: rotate(15deg);
+  animation-name: yeet-one;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes swiper-no-swiping {
+  0% {left:-80%;}
+  49% {opacity: 0.15;}
+  50% {left: 100%;opacity: 0; width: 5%;}
+  80% {left: -100%;opacity: 0;}
+  99% {opacity: 0;}
+  100% {left:-80%; opacity: 0.15; width: 20%;}
+}
+
+@keyframes yeet-one {
+  0% {top:-80%;}
+  99.9% {top: 100%;}
+  100% {top:-80%;}
 }
 
 .lexi .hero h1 {
