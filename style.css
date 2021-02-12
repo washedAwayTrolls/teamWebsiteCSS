@@ -420,20 +420,24 @@ a.btn-gold:hover, a.btn-gold:active {
   margin-bottom: 20px;
   position: relative;
   animation: text 3s infinite;
+  background-color:chocolate;
 }
 .CText{
   width: 100%;
   position: absolute;
+  background-color: crimson;
 }
 .CText ul{
   height: 45px;
   float: left;
+  background-color: darkcyan;
 }
 .CText ul a{
   display: inline-block;
   text-transform: capitalize;
   color: rebeccapurple;
   font-size: 15px;
+  background-color: darkorange;
 }
 
 @keyframes text {
