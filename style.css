@@ -452,8 +452,8 @@ a.btn-gold:hover, a.btn-gold:active {
     top: 300px;
   }
   100%{
-    color: black;
-    top: 0px;
+    color: blue;
+    top: -100px;
   }
 }
 
