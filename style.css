@@ -408,15 +408,15 @@ a.btn-gold:hover, a.btn-gold:active {
 @keyframes text {
   0%{
     color:blue;
-    top: 0px;
+    bottom: 0px;
   }
   50%{
     color:red;
-    top: 300px;
+    bottom: 300px;
   }
   100%{
     color: blue;
-    top: 0px;
+    bottom: 0px;
   }
 }
 
@@ -433,7 +433,7 @@ h1 {
   font-size: 5rem;
   font-weight: 700;
   letter-spacing: 8px;
-  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 h2 {
@@ -446,7 +446,7 @@ p{
   font-size: 2rem;
   color:darkorchid;
   line-height: 5rem;
-  margin-bottom: 5rem;
+  margin-top: 5rem;
 }
 
 
