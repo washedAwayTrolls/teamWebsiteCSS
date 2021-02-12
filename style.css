@@ -452,7 +452,7 @@ a.btn-gold:hover, a.btn-gold:active {
 @keyframes text {
   0%{
     color:blue;
-    top: -300px;
+    top: 0px;
   }
   50%{
     color:red;
@@ -460,7 +460,7 @@ a.btn-gold:hover, a.btn-gold:active {
   }
   100%{
     color: blue;
-    top: -300px;
+    top: 0px;
   }
 }
 
