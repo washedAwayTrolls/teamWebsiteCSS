@@ -237,14 +237,6 @@ body.lexi {
   background-color:#E0E0E0;
 }
 /* Hero */
-/*.lexi .hero {
-  padding: 150px 0;
-  background-image: url(lexi-hero.png);
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-  border-bottom: 10px solid #353535;
-}*/
 .lexi .hero {
   height:550px;
   width:100%;
@@ -252,6 +244,7 @@ body.lexi {
   display: inline-block;
   text-align: center;
   border-bottom: 10px solid #353535;
+  background:#212121;
 }
 .lexi .hero .hero-bg {
   position: absolute;
@@ -262,6 +255,28 @@ body.lexi {
   background-image: linear-gradient(75deg, #AA590F, #E89B00);
   z-index: -1;
 }
+.lexi .hero .hero-bg::after {
+  background-image: linear-gradient(75deg, #AA590F, #E89B00);
+  background-color:#fff;
+  mix-blend-mode: overlay;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:20%;
+  height: 100%;
+  animation-name: swiper-no-swiping;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@@keyframes swiper-no-swiping {
+  0% {left:0;}
+  25% {left: 50%;}
+  45% {left: 100%;}
+  55% {left: 100%;}
+  75% {left: 50%;}
+  100% {left:0}
+}
 
 .lexi .hero h1 {
   color:#fff;
@@ -270,7 +285,7 @@ body.lexi {
   text-transform: uppercase;
   position: relative;
   z-index: 2;
-  margin-top: 250px;
+  margin-top: 195px;
 }
 /* Body */
 .page {
@@ -279,8 +294,8 @@ body.lexi {
 }
 .page .sidebar {
   background-color:#cccccc;
-  width:25%;
-  padding: 80px;
+  width:30%;
+  padding: 80px 30px 80px 80px;
 }
 .page .sidebar .image {
   margin:0 auto;
@@ -296,7 +311,7 @@ body.lexi {
   box-shadow: 0 3px 35px rgba(0,0,0,0.15);
 }
 .page .content {
-  width:75%;
+  width:70%;
   padding: 80px 60px 60px 180px;
 }
 .lexi footer {
