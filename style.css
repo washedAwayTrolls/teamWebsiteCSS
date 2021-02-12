@@ -266,6 +266,7 @@ body.lexi {
   animation-name: swiper-no-swiping;
   animation-duration: 3s;
   animation-iteration-count: infinite;
+  z-index: 1;
 }
 
 @@keyframes swiper-no-swiping {
