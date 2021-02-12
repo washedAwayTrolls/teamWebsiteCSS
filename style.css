@@ -54,6 +54,7 @@ body {
   padding: 80px;
   flex-wrap: wrap;
   background-color: #212121;
+  margin:0 auto;
 }
 .row .box .image {
   width:100%;
@@ -101,7 +102,10 @@ footer a {
   text-decoration: none;
   color:#fff;
 }
-
+.row h2 {
+  color:#4f4f4f;
+  text-align: center;
+}
 /*------------------------------------------- Nathan -------------------------------------------*/
 .teamNames {
     color:cornflowerblue;
