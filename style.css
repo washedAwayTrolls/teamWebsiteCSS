@@ -224,6 +224,13 @@ footer a {
     background-size: 1200px;
   }
 }
+
+.spongeBobImage {
+  background-image: url(spongeBobStyle1.png);
+}
+.spongeBobImage:hover {
+  background-image: url(spongeBobStyle2.png);
+}
 /*------------------------------------------- Lexi -------------------------------------------*/
 body.lexi {
   margin:0;
@@ -386,8 +393,8 @@ a.btn-gold:hover, a.btn-gold:active {
     top: 300px;
   }
   100%{
-    color: black;
-    top: 0px;
+    color: blue;
+    top: -100px;
   }
 }
 
