@@ -224,6 +224,13 @@ footer a {
     background-size: 1200px;
   }
 }
+
+.spongeBobImage {
+  background-image: url(spongeBobStyle1.png);
+}
+.spongeBobImage:hover {
+  background-image: url(spongeBobStyle2.png);
+}
 /*------------------------------------------- Lexi -------------------------------------------*/
 body.lexi {
   margin:0;
