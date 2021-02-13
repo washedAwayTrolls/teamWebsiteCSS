@@ -587,3 +587,12 @@ tim.body{
   from{opacity:0}
   to{opacity: 1}
 }
+
+
+
+.modal-Image{
+  border:5px solid #555;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
