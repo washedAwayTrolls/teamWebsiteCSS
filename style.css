@@ -276,7 +276,7 @@ body.lexi {
   z-index: 1;
 }
 
-@@keyframes swiper-no-swiping {
+@keyframes swiper-no-swiping {
   0% {left:0;}
   25% {left: 50%;}
   45% {left: 100%;}
@@ -506,7 +506,7 @@ tim.body{
 
 }
 
-.timbutton{
+.modalBtn{
   background:coral;
   padding:1em 2em;
   color:#fff;
@@ -516,7 +516,7 @@ tim.body{
   background: #353535;
 }
 
-.timodal{
+.simpleModal{
   display:none;
   position:fixed;
   z-index:1;
@@ -538,6 +538,32 @@ tim.body{
   animation-duration:1s;
 
 
+}
+
+
+.row .modalBtn .image {
+  width:100%;
+}
+.row .modalBtn .image img {
+  width:100%;
+  max-height: 200px;
+  border-radius: 10px 10px 0 0;
+  transition: 250ms all;
+  object-fit: cover;
+}
+.row .modalBtn .image img:hover {
+  opacity: 0.65;
+}
+.row .modalBtn {
+  width:33.333%;
+  flex:1;
+  margin:10px;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.15);
+  background-color:#fff;
+  border-radius: 10px;
+}
+.row .modalBtn .content {
+  padding: 25px;
 }
 
 .timcloseBtn{
