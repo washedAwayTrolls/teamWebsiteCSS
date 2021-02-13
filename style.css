@@ -255,68 +255,38 @@ body.lexi {
   display: inline-block;
   text-align: center;
   border-bottom: 10px solid #353535;
-  background-image: linear-gradient(75deg, #AA590F, #E89B00);
-  overflow: hidden;
 }
-
-.lexi .hero .hero-box {
+.lexi .hero .hero-bg {
+  position: absolute;
+  top:0;
+  left: 0;
+  width:100%;
+  height:100%;
+  background-image: linear-gradient(75deg, #AA590F, #E89B00);
+  z-index: -1;
+}
+.lexi .hero .hero-bg::after {
+  background-image: linear-gradient(75deg, #AA590F, #E89B00);
   background-color:#fff;
   mix-blend-mode: overlay;
-  opacity: 0.15;
   position: absolute;
-  top: -100%;
+  top: 0;
   left: 0;
   width:20%;
-  height: 500%;
+  height: 100%;
   animation-name: swiper-no-swiping;
-  animation-duration: 30s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
   z-index: 1;
-  transform: rotate(180deg);
-}
-.lexi .hero .particlesOne {
-  background-image: url(imagine.png);
-  background-repeat: repeat;
-  position: absolute;
-  top: 0;
-  left: -50%;
-  width: 500%;
-  height:500%;
-  opacity: 0.05;
-  transform: rotate(15deg);
-  animation-name: yeet-one;
-  animation-duration: 120s;
-  animation-iteration-count: infinite;
-}
-
-.lexi .hero .particlesTwo {
-  background-image: url(imagine.png);
-  background-repeat: repeat;
-  position: absolute;
-  top: 0;
-  left: -65.25%;
-  width: 500%;
-  height:500%;
-  opacity: 0.1;
-  transform: rotate(15deg);
-  animation-name: yeet-one;
-  animation-duration: 60s;
-  animation-iteration-count: infinite;
 }
 
 @keyframes swiper-no-swiping {
-  0% {left:-80%;}
-  49% {opacity: 0.15;}
-  50% {left: 100%;opacity: 0; width: 5%;}
-  80% {left: -100%;opacity: 0;}
-  99% {opacity: 0;}
-  100% {left:-80%; opacity: 0.15; width: 20%;}
-}
-
-@keyframes yeet-one {
-  0% {top:-80%;}
-  99.9% {top: 100%;}
-  100% {top:-80%;}
+  0% {left:0;}
+  25% {left: 50%;}
+  45% {left: 100%;}
+  55% {left: 100%;}
+  75% {left: 50%;}
+  100% {left:0}
 }
 
 .lexi .hero h1 {
@@ -414,7 +384,6 @@ a.btn-gold:hover, a.btn-gold:active {
   .container span{
     text-transform: uppercase;
     display: block;
-    background-color: brown;
   }
 .TextCarlos{
   color:darkgray;
@@ -424,38 +393,34 @@ a.btn-gold:hover, a.btn-gold:active {
   margin-bottom: 20px;
   position: relative;
   animation: text 3s infinite;
-  background-color:chocolate;
 }
 .CText{
   width: 100%;
   position: absolute;
-  background-color: crimson;
 }
 .CText ul{
   height: 45px;
   float: left;
-  background-color: darkcyan;
 }
 .CText ul a{
   display: inline-block;
   text-transform: capitalize;
   color: rebeccapurple;
   font-size: 15px;
-  background-color: darkorange;
 }
 
 @keyframes text {
   0%{
     color:blue;
-    top: 0px;
+    bottom: 0px;
   }
   50%{
     color:red;
-    top: 300px;
+    bottom: 300px;
   }
   100%{
     color: blue;
-    top: 0px;
+    bottom: 0px;
   }
 }
 
@@ -486,7 +451,6 @@ a.btn-gold:hover, a.btn-gold:active {
   color:darkorchid;
   line-height: 5rem;
   margin-top: 5rem;
-  text-align: center;
 }
 
 
@@ -546,7 +510,7 @@ tim.body{
 
 }
 
-.timbutton{
+.modalBtn{
   background:coral;
   padding:1em 2em;
   color:#fff;
@@ -556,7 +520,7 @@ tim.body{
   background: #353535;
 }
 
-.timodal{
+.simpleModal{
   display:none;
   position:fixed;
   z-index:1;
@@ -578,6 +542,32 @@ tim.body{
   animation-duration:1s;
 
 
+}
+
+
+.row .modalBtn .image {
+  width:100%;
+}
+.row .modalBtn .image img {
+  width:100%;
+  max-height: 200px;
+  border-radius: 10px 10px 0 0;
+  transition: 250ms all;
+  object-fit: cover;
+}
+.row .modalBtn .image img:hover {
+  opacity: 0.65;
+}
+.row .modalBtn {
+  width:33.333%;
+  flex:1;
+  margin:10px;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.15);
+  background-color:#fff;
+  border-radius: 10px;
+}
+.row .modalBtn .content {
+  padding: 25px;
 }
 
 .timcloseBtn{
