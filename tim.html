@@ -3,6 +3,12 @@
 
 <head>
     <link rel="stylesheet" href="style.css" type="text/css" />
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <style>
         
         h5 {
@@ -25,7 +31,7 @@
 <body>
 
 
-    <button class="modalBtn" href="#modal1">
+    <button id="modalBtn" data-toggle="modal" data-target="#gameModal">
 
         
         
@@ -37,17 +43,36 @@
     
     </button>
     
+    <div class="modal fade" id="gameModal" role="dialog">
+        <div class="modal-dialog" style="width: 1600px; height: 700px;">
+    
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">SpaceShooters!</h4>
+                    <h5>Made in Gamemaker</h5>
+                </div>
+                <div class="modal-body">
+                
+                    
+                    <iframe src="space.html" name="iframe_a" height="800px" width="1050px" title="Iframe Example"></iframe>
+                
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+
+
     <div id="modal1" class="simpleModal">
     <div class="modal-content">
         
         <span class="timcloseBtn">x</span>
-        <p>
-            SpaceShooters!
-            
-        </p>
-        <h5>Made in Gamemaker</h5>
-        <iframe src="space.html" name="iframe_a" height="800px" width="1050px" title="Iframe Example"></iframe>
-    
+        
     </div>
     </div>
 
