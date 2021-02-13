@@ -107,6 +107,10 @@ footer a {
   color:#4f4f4f;
   text-align: center;
 }
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
 /*------------------------------------------- Nathan -------------------------------------------*/
 .teamNames {
     color:cornflowerblue;
