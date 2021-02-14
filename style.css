@@ -596,3 +596,8 @@ tim.body{
   width: 200px;
   border-radius: 50%;
 }
+
+.modal-Art{
+  border:5px solid #555;
+  
+}
