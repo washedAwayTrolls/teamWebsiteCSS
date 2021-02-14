@@ -4,6 +4,12 @@
 <head>
     <link rel="stylesheet" href="style.css" type="text/css" />
 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 </head>
 
 <section>
@@ -28,67 +34,220 @@
         </div>
     </section>
     <div class="row">
-        <div class="box">
+        <div class="box" data-toggle="modal" data-target="#natModal">
             <div class="image">
                 <img src="nathanPic.jpg" />
             </div>
             <div class="content">
-                <p>Nathan Farrell</p>
+                <h3>Nathan Farrell</h3>
                 <h4 style="text-align:center; color:gray">Project Lead</h4>
-                <h5> I grew up in a small town in Idaho and got attached to video games.</h5>
+                
             </div>
         </div>
 
-        <div class="box">
+        <div class="box" data-toggle="modal" data-target="#lexModal">
             <div class="image">
-                <a href="lexi.html"><img src="lexi-hero.png" alt="yeet" /></a>
+                <img src="lexi-hero.png" alt="yeet" />
             </div>
             <div class="content">
                 <h3>Lexi Chavez</h3>
-                <p>hi yes, I code websites - and I suffer. Web development is my thing and everyday I cry more.</p>
+                
             </div>
         </div>
 
-        <div class="box">
+        <div class="box" data-toggle="modal" data-target="#timModal">
             <div class="image">
                 <img src="panda.jpeg" />
             </div>
             <div class="content">
                 <h3>Timothy Cammack</h3>
-                <p>I code VR, and I too suffer</p>
+                
             </div>
         </div>
 
-        <div class="box">
+        <div class="box" data-toggle="modal" data-target="#emModal">
             <div class="image">
-                <a href="emily.html"><img src="emilysnowboard.png" /></a>
+                <img src="emilysnowboard.png" /></a>
             </div>
             <div class="content">
                 <h3>Emily Mead</h3>
-                <p>I code VR, and I too suffer</p>
+                
             </div>
         </div>
 
-        <div class="box">
+        <div class="box" data-toggle="modal" data-target="#carModal">
             <div class="image">
-                <a href="carlos.html"><img src="IMG_0917 copy.png"></a>
+                <img src="IMG_0917 copy.png"></a>
             </div>
             <div class="content">
-                <p>Hello I design 3d models and animate them. I like reading sci fi and fantasy books.</p>
+                <h3>Carlos</h3>
             </div>
         </div>
     </div>
+
+
+
+
+    <!--modals-->
+
+    <div class="modal fade" id="natModal" role="dialog">
+        <div class="modal-dialog">
+    
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Nathan</h4>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <a href="nathan.html"><img src="nathanPic.jpg" class="modal-Image" /></a>
+                    </div>
+                    <hr>
+                    <h5> I grew up in a small town in Idaho and got attached to video games.</h5>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    
+    <div class="modal fade" id="lexModal" role="dialog">
+        <div class="modal-dialog">
+    
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Lexi</h4>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <a href="lexi.html"><img src="lexi-hero.png" class="modal-Image" /></a>
+                    </div>
+                    <hr>
+                    <p>hi yes, I code websites - and I suffer. Web development is my thing and everyday I cry more.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    
+    <div class="modal fade" id="timModal" role="dialog">
+        <div class="modal-dialog">
+    
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Tim</h4>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <a href="tim2.html"><img src="panda.jpeg" class="modal-Image" /></a>
+                    </div>
+                <hr>
+                    <p>I code VR, and I too suffer</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    
+    <div class="modal fade" id="emModal" role="dialog">
+        <div class="modal-dialog">
+    
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Emily</h4>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <a href="emily.html"><img src="emilysnowboard.png" class="modal-Image" /></a>
+                    </div>
+                    <hr>
+                    <p></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    
+    <div class="modal fade" id="carModal" role="dialog">
+        <div class="modal-dialog">
+    
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Carlos</h4>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <a href="carlos.html"><img src="IMG_0917 copy.png" class="modal-Image" /></a>
+                    </div>
+                    <hr>
+                    <p>Hello I design 3d models and animate them. I like reading sci fi and fantasy books.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+
+    <!--other stuff-->
+
+    
+   
+    </div>
+
+
     <section>
         <a href="style.html">
             <div class="spongeBobImage"></div>
         </a>
     </section>
     <footer>
-        <p><a href="https://www.youtube.com/watch?v=2q82bGtujFA&t=8s" target="_blank">&copy; 2021 Washed Ashore Trolls</a></p>
+        <p><a href="https://www.youtube.com/watch?v=2q82bGtujFA&t=8s" target="_blank">&copy; 2021 Washed Ashore
+                Trolls</a></p>
     </footer>
-    <script src="main.js"></script>
+
+
+    
+    <!-- Trigger the modal with a button -->
+    
+
+
+
+
+
+
+
+
 
 
 </body>
+
+
+
+
+
+
+
 
 </html>
