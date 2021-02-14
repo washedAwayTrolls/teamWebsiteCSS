@@ -242,6 +242,21 @@ footer a {
 .spongeBobImage:hover {
   background-image: url(spongeBobStyle2.png);
 }
+
+#shortStory h2 {
+  text-align:center;
+ 
+  text-decoration-line:none;
+  font-size:x-large;
+}
+
+#shortStory h2:hover {
+  text-decoration-line:underline;
+}
+
+#linksForEntomology footer {
+  font-size:small;
+}
 /*------------------------------------------- Lexi -------------------------------------------*/
 body.lexi {
   margin:0;
