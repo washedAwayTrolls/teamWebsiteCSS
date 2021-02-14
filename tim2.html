@@ -9,8 +9,16 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&family=Ovo&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+
     <style>
-        
         h5 {
             font-size: medium;
         }
@@ -19,107 +27,126 @@
 
 
 
-<header>
-    <h1>Timothy Cammack</h1>
-    <img src="panda.jpeg">
-    <h2>secondary artist</h2>
-</header>
 
 
 
 
-<body>
+<body class="lexi">
+
+    <div class="hero">
+        <div class="hero-bg">
+            <h1>Tim's Profile</h1>
+            <h4>secondary artist</h4>
+            <img src="panda.jpeg" class="modal-Image">
+        </div>
+    </div>
+
+    <div class="page">
 
 
-  <button id="modalBtn" data-toggle="modal" data-target="#gameModal">        
-        <p>
-            Check out this game!
-        </p>
-    </button>
+        <div class="content">
+            <h3>About Me</h3>
+
+            <h5>
+                I grew up in southern California and moved to Idaho when I graduated from high school.
+                A year after moving I heard of an increadibly interesting degree called GIMM.
+                After startingting the program I developed an great love for video game design and the puzzle solving of
+                coding.
+                I am currently developing my own VR game and exploring the multitude of possibilities the VR open up.
+            </h5>
+
+            <h4>Hobbies & Interests</h4>
+            <ul>
+              <li style="font-weight:bold;">Animation</li>
+              <li>World Design</li>
+              <li>Virtual Reality Development</li>
+              <li>Video Games</li>
+            </ul>
+
+            <button class="modalBtn" data-toggle="modal" data-target="#gameModal">
+                <p>
+                    Check out this game!
+                </p>
+            </button>
+
+            <button class="modalBtn" data-toggle="modal" data-target="#artModal">
+                <p>
+                    Check out this art!
+                </p>
+            </button>
     
-  <div class="modal fade" id="gameModal" role="dialog">
-    <div class="modal-dialog modal-lg" style="width: 1600px;">
-
-        <!-- Modal content-->
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">SpaceShooters!</h4>
-                <h5>Made in Gamemaker</h5>
-            </div>
-            <div class="modal-body">
+        
             
-                
-                <iframe src="space.html" name="iframe_a" height="800px" width="1050px" title="Iframe Example"></iframe>
-            
+          </div>
+
+
+        
+        <div class="modal fade" id="gameModal" role="dialog">
+            <div class="modal-dialog modal-lg" style="width: 1600px;">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">SpaceShooters!</h4>
+                        <h5>Made in Gamemaker</h5>
+                    </div>
+                    <div class="modal-body">
+
+
+                        <iframe src="space.html" name="iframe_a" height="800px" width="1050px"
+                            title="Iframe Example"></iframe>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+
+       
+
+        <div class="modal fade" id="artModal" role="dialog">
+            <div class="modal-dialog" style="width: 1000px;">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">VR game concept art</h4>
+                        <h5></h5>
+                    </div>
+                    <div class="modal-body">
+                        <div>
+
+                            <img src="troll1.jpg" class="modal-Art" style="width: 100%; height: 100%;">
+                        </div>
+                        <div>
+
+                            <img src="troll2.jpg" style="width: 100%; height: 100%;" class="modal-Art">
+                        </div>
+                        <div>
+
+                            <img src="ericthered.jpg" style="width: 100%; height: 100%;" class="modal-Art">
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
             </div>
         </div>
 
-    </div>
-</div>
 
-<button id="modalBtn" data-toggle="modal" data-target="#artModal">        
-    <p>
-        Check out this art!
-    </p>
-</button>
 
-<div class="modal fade" id="artModal" role="dialog">
-<div class="modal-dialog" style="width: 1000px;" >
 
-    <!-- Modal content-->
-    <div class="modal-content">
-        <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h4 class="modal-title">VR game concept art</h4>
-            <h5></h5>
-        </div>
-        <div class="modal-body">
-            <div>
         
-            <img src="troll1.jpg" class="modal-Art" style="width: 100%; height: 100%;" >
-        </div>
-        <div>
-        
-            <img src="troll2.jpg" style="width: 100%; height: 100%;" class="modal-Art">
-        </div>
-        <div>
-        
-            <img src="ericthered.jpg" style="width: 100%; height: 100%;" class="modal-Art">
-        </div>
-
-        </div>
-        <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-    </div>
-
-</div>
-</div>
-
-
-
-
-<section>
-    <h2 class="timTitle">About me</h2>
-
-    
-
-   
-    <h5>
-        I grew up in southern California and moved to Idaho when I graduated from high school.
-        A year after moving I heard of an increadibly interesting degree called GIMM.
-        After startingting the program I developed an great love for video game design and the puzzle solving of coding.
-        I am currently developing my own VR game and exploring the multitude of possibilities the VR open up.
-    </h5>
-    
 
     </div>
-</section>
-
 </body>
 
 
