@@ -413,7 +413,7 @@ a.btn-gold:hover, a.btn-gold:active {
   font-size: 60px;
   font-weight: 700;
   letter-spacing: 8px;
-  margin-bottom: 20px;
+  margin-top: 20px;
   position: relative;
   animation: text 3s infinite;
 }
