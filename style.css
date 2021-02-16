@@ -463,6 +463,14 @@ a.btn-gold:hover, a.btn-gold:active {
   text-align: right;
 }
 
+.MeText h1{
+  font-size: 20px;
+}
+
+.MeText h2{
+  font-size: 10px;
+}
+
 .carlos-page h1 {
   color:coral;
   font-size: 4rem;
