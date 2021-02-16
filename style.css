@@ -500,9 +500,17 @@ a.btn-gold:hover, a.btn-gold:active {
   opacity: 1;
 
 }
-.Carlos-Image:hover{
-  border: 5px solid #1a3283;
-  
+
+@keyframes image{
+  0%{
+    border:blue;
+  }
+  50%{
+    border:red;
+  }
+  100%{
+    border:blue;
+  }
 }
 
 
