@@ -457,16 +457,16 @@ a.btn-gold:hover, a.btn-gold:active {
 
 .carlos-page h1 {
   color:coral;
-  font-size: 5rem;
-  font-weight: 700;
-  letter-spacing: 8px;
+  font-size: 4rem;
+  font-weight: 600;
+  letter-spacing: 7px;
   margin-top: 2rem;
 }
 
 .carlos-page h2 {
   color:cyan;
-  font-size: 4rem;
-  font-weight: 400;
+  font-size: 3rem;
+  font-weight: 300;
 }
 
 .carlos-page p{
@@ -478,14 +478,14 @@ a.btn-gold:hover, a.btn-gold:active {
 
 .Carlos-Image{
   border:5px solid #1a3283;
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
   border-radius: 50%;
   opacity: 1;
 
 }
 .Carlos-Image:hover{
-  border:10px solid #1a3283;
+  border: 5px solid #1a3283;
   
 }
 
