@@ -477,7 +477,7 @@ a.btn-gold:hover, a.btn-gold:active {
 }
 
 .Carlos-Image{
-  border:5px solid #353535;
+  border:5px solid #1a3283;
   height: 200px;
   width: 200px;
   border-radius: 50%;
@@ -485,7 +485,7 @@ a.btn-gold:hover, a.btn-gold:active {
   
 }
 .Carlos-Image:hover{
-  border:10px solid #181818;
+  border:10px solid #1a3283;
   
 }
 
