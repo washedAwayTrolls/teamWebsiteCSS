@@ -623,10 +623,15 @@ tim.body{
 
 
 .modal-Image{
-  border:5px solid #555;
+  border:5px solid #353535;
   height: 200px;
   width: 200px;
   border-radius: 50%;
+  opacity: 1;
+  
+}
+.modal-Image:hover{
+  border:10px solid #181818;
   
 }
 
