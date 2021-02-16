@@ -262,6 +262,8 @@ footer a {
   background-image: url(spongeBobStyle2.png);
 }
 
+
+
 #shortStory h2 {
   text-align:center;
  
@@ -458,21 +460,21 @@ a.btn-gold:hover, a.btn-gold:active {
   margin: 0 auto;
   padding: 0 3rem;
   margin-top: 4rem;
-  text-align: left;
+  text-align: right;
 }
 
 .carlos-page h1 {
   color:coral;
-  font-size: 5rem;
-  font-weight: 700;
-  letter-spacing: 8px;
+  font-size: 4rem;
+  font-weight: 600;
+  letter-spacing: 7px;
   margin-top: 2rem;
 }
 
 .carlos-page h2 {
   color:cyan;
-  font-size: 4rem;
-  font-weight: 400;
+  font-size: 3rem;
+  font-weight: 300;
 }
 
 .carlos-page p{
@@ -480,6 +482,19 @@ a.btn-gold:hover, a.btn-gold:active {
   color:darkorchid;
   line-height: 5rem;
   margin-top: 5rem;
+}
+
+.Carlos-Image{
+  border:5px solid #1a3283;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  opacity: 1;
+
+}
+.Carlos-Image:hover{
+  border: 5px solid #1a3283;
+  
 }
 
 
