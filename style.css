@@ -452,7 +452,7 @@ a.btn-gold:hover, a.btn-gold:active {
   margin: 0 auto;
   padding: 0 3rem;
   margin-top: 4rem;
-  text-align: left;
+  text-align: right;
 }
 
 .carlos-page h1 {
@@ -474,6 +474,19 @@ a.btn-gold:hover, a.btn-gold:active {
   color:darkorchid;
   line-height: 5rem;
   margin-top: 5rem;
+}
+
+.Carlos-Image{
+  border:5px solid #353535;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  opacity: 1;
+  
+}
+.Carlos-Image:hover{
+  border:10px solid #181818;
+  
 }
 
 
