@@ -69,6 +69,7 @@ body {
   padding: 80px;
   flex-wrap: wrap;
   background-color: #1A6FA8;
+  margin:0%;
 }
 .row .box .image {
   width:100%;
@@ -113,7 +114,7 @@ body {
 
 
 footer {
-  background-image: linear-gradient(0deg, #aa6c0f, #eda922);
+  background-color: #D89F3A;
   padding:80px 0;
   margin: 0 auto;
   text-align: center;
@@ -209,6 +210,7 @@ footer a {
 
   animation: wave 20s linear infinite;
   animation-direction:alternate;
+  
 }
 
 
@@ -229,10 +231,10 @@ footer a {
   left: 0;
   width: 100%;
   height: 100px;
-  background: url(wavef1.png);
+  background: url(nathanInsect1.jpg);
   background-size: 900px 100px;
 
-  animation: wave 5s linear infinite;
+  animation: wave2 5s linear infinite;
   animation-direction:alternate-reverse;
 }
 
@@ -246,6 +248,34 @@ footer a {
 
     background-size: 1200px;
   }
+}
+
+.wave3 {
+    background-image: url(newwave3.gif);
+    background-size:auto;
+    animation: wave3 2s linear infinite;
+    width:100%;
+    height:100px;
+    background-size: 1000px 200px;
+
+    animation-direction:alternate;
+
+}
+
+@keyframes wave3 {
+    0% {
+        background-position-y:0px;
+        background-position-x:0px;
+        
+    }
+    50% {
+        background-position-y:5px;
+        background-position-x:500px;
+    }
+    100% {
+        background-position-y:0px;
+        background-position-x:1000px;
+    }
 }
 
 .spongeBobImage {
@@ -547,20 +577,14 @@ a.btn-gold:hover, a.btn-gold:active {
 }
 
 /*------------------------------------------- Tim -------------------------------------------*/
-.timbody{
+tim.body{
   font-family:  Arial, Helvetica, sans-serif;
   font-size: 17px;
   line-height: 1.6;
 
 }
 
-.timh5{
-  color: #555;
-  font-weight: 100;
-  font-kerning: auto;
-}
-
-.tiModalBtn{
+.modalBtn{
   background:coral;
   padding:1em 2em;
   color:#fff;
@@ -659,15 +683,6 @@ a.btn-gold:hover, a.btn-gold:active {
 }
 .modal-Image:hover{
   border:10px solid #181818;
-  
-}
-
-.timage{
-  border:5px solid #353535;
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  opacity: 1;
   
 }
 
