@@ -405,7 +405,7 @@ a.btn-gold:hover, a.btn-gold:active {
 
 
   .container{
-    text-align: center;
+    text-align: left;
     position: absolute;
     top: 50%;
     left: 50%;
