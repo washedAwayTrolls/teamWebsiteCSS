@@ -490,7 +490,7 @@ a.btn-gold:hover, a.btn-gold:active {
   }
   50%{
     color:red;
-    top: 300px;
+    top: 150px;
   }
   100%{
     color: blue;
