@@ -611,14 +611,23 @@ a.btn-gold:hover, a.btn-gold:active {
   font-kerning: auto;
 }
 
+.timh4{
+color:rgb(92, 92, 92);
+font-weight: 50;
+font-kerning: normal;
+
+}
+
 .tiModalBtn{
   background:coral;
   padding:1em 2em;
+  border-radius:  15px;
   color:#fff;
   border:0;
   animation-name: example;
   animation-duration: 4s;
   animation-iteration-count: infinite;
+}
 }
 @keyframes example {
   0%   {background-color:red; left:0px; top:0px;}
