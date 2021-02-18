@@ -600,6 +600,9 @@ h2{
   padding: 40px 60px 2px 45px;
 }
 
+.page .emilyContent h3 {
+  color: #AA590F;
+}
 /*------------------------------------------- Tim -------------------------------------------*/
 .timbody{
   font-family:  Arial, Helvetica, sans-serif;
