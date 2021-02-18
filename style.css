@@ -490,7 +490,7 @@ a.btn-gold:hover, a.btn-gold:active {
   }
   50%{
     color:red;
-    top: 150px;
+    top: 200px;
   }
   100%{
     color: blue;
@@ -536,16 +536,15 @@ a.btn-gold:hover, a.btn-gold:active {
 
 }
 
-@keyframes image{
-  0%{
-    border:blue;
-  }
-  50%{
-    border:red;
-  }
-  100%{
-    border:blue;
-  }
+h3{
+  color: red;
+}
+
+h1{
+  color: blue;
+}
+h2{
+  color: blue;
 }
 
 
