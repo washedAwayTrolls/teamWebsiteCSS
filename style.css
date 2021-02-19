@@ -322,7 +322,26 @@ footer a {
   font-size:small;
 }
 
-  
+.test1 {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.test1 h2 {
+  position: relative;
+  font-size: 6em;
+  color: #fff;
+}
+
+.test1 svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 /*------------------------------------------- Lexi -------------------------------------------*/
 body.lexi {
   margin:0;
