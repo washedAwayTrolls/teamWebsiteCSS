@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="gradientAnimationYellowBlue">
 
 <head>
 <style>
@@ -47,6 +47,31 @@ footer {
 
 q{
     color:blueviolet;
+}
+
+.gradientAnimationYellowBlue {
+  background: linear-gradient(0deg, #ebee69, #1877e6, #18e672);
+  background-size: 600% 600%;
+
+  -webkit-animation: gradientAnimation1 31s ease infinite;
+  -moz-animation: gradientAnimation1 31s ease infinite;
+  animation: gradientAnimation1 31s ease infinite;
+}
+
+@-webkit-keyframes gradientAnimation1 {
+  0%{background-position:49% 0%}
+  50%{background-position:52% 100%}
+  100%{background-position:49% 0%}
+}
+@-moz-keyframes gradientAnimation1 {
+  0%{background-position:49% 0%}
+  50%{background-position:52% 100%}
+  100%{background-position:49% 0%}
+}
+@keyframes gradientAnimation1 {
+  0%{background-position:49% 0%}
+  50%{background-position:52% 100%}
+  100%{background-position:49% 0%}
 }
 
 </style>
