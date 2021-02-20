@@ -638,6 +638,78 @@ h2 #blueh2{
 .page .emilyContent h3 {
   color: #AA590F;
 }
+
+.ballBackground {
+  background-color: rgb(216, 178, 205);
+  height: 300px;
+  width: 500px;
+  position: absolute;
+}
+.ballAnimation {
+  background-color: rgb(76, 143, 187);
+  height: 50px;
+  width: 50px;
+  top: 50px;
+  left: 220px;
+  border-radius: 50%;
+  position: relative;
+  animation: bonce 1s infinite;
+  
+}
+.shadowAnimation {
+  background-color: black;
+  height: 10px;
+  width: 30px;
+  border-radius: 50%;
+  position: relative;
+  top: 280px;
+  left: 230px;
+  opacity: 20%;
+  animation: shadow 1s infinite;
+}
+@keyframes shadow {
+ 10% {
+     transform: scaleX(1);
+     opacity: 20%;
+ }
+ 35% {
+  transform: scaleX(1.5);
+  opacity: 30%;
+ }
+ 50% {
+  transform: scaleX(2);
+  opacity: 40%;
+ }
+ 75% {
+  transform: scaleX(1.5);
+  opacity: 30%;
+ }
+ 100% {
+  Transform: scaleX(1);
+  opacity: 20%;
+ }
+
+}
+@keyframes bonce {
+ 10%   {
+    height: 50px;
+    width: 50px;
+  }
+  30% {
+      height: 50px;
+      width: 40px;
+  }
+  50% {
+      height: 30px;
+      width: 57px;
+      top: 250px;
+  }
+  75% {
+      height: 50px;
+      width: 57px;
+  }
+}
+
 /*------------------------------------------- Tim -------------------------------------------*/
 .timbody{
   font-family:  Arial, Helvetica, sans-serif;
