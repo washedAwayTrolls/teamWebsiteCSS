@@ -356,6 +356,10 @@ footer a {
   top: 0;
   left: 0;
 }
+
+.insectDescription {
+  font-size:13px;
+}
 /*------------------------------------------- Lexi -------------------------------------------*/
 body.lexi {
   margin:0;
