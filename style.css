@@ -14,6 +14,7 @@ h2 {
   font-size: 48px;
   line-height: 60px;
   margin:0;
+  color: #1e4277;
 }
 h3 {
   font-family:  'Lato', sans-serif;
@@ -22,13 +23,10 @@ h3 {
   margin:0;
   margin-top: 20px;
   margin-bottom: 10px;
-  font-weight:bold;
-  color:rgb(180, 177, 165);
-  word-spacing:1rem;
-  text-shadow:2px 2px #3d3d3d;
+  font-weight:800;
+  text-transform: uppercase;
+  color:#1A6FA8;
 }
-
-
 .names {
   text-align:center;
   padding-top:1rem;
@@ -38,7 +36,8 @@ h4 {
   font-size: 24px;
   line-height: 36px;
   margin:0;
-  margin-top: 10px;
+  margin-top: 30px;
+  color: #1e4277;
 }
 h5 {
   font-family:  'Lato', sans-serif;
@@ -365,6 +364,16 @@ body.lexi {
   margin:0;
   background-color:#E0E0E0;
 }
+.black-nav {
+  background-color:#212121;
+}
+.black-nav .dropbtn {
+  border-bottom: 3px solid #353535;
+  transition: 250ms all;
+}
+.black-nav .dropbtn:hover {
+  border-bottom: 3px solid #E89B00;
+}
 /* Hero */
 .lexi .hero {
   height:550px;
@@ -374,28 +383,66 @@ body.lexi {
   text-align: center;
   border-bottom: 10px solid #353535;
   background-image: linear-gradient(75deg, #AA590F, #E89B00);
+  overflow: hidden;
 }
-.lexi .hero::after {
-  background-color:#fff;
-  mix-blend-mode: overlay;
+.lexi .hero .backing {
   position: absolute;
-  top: 0;
-  left: 0;
-  width:20%;
-  height: 100%;
-  animation-name: swiper-no-swiping;
-  animation-duration: 3s;
+  width: 200%;
+  height: 200%;
+  top:-50%;
+  left:-50%;
+  background-image: url(hexagon-bg.png);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: auto;
+  mix-blend-mode: overlay;
+  opacity: 0.35;
+  transform: rotate(15deg);
+  animation-name:shine;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
-  z-index: 1;
 }
 
-@keyframes swiper-no-swiping {
-  0% {left:0;}
-  25% {left: 50%;}
-  45% {left: 100%;}
-  55% {left: 100%;}
-  75% {left: 50%;}
-  100% {left:0}
+@keyframes shine {
+  0% {opacity: 0.35;}
+  50% {opacity: 0.05;}
+  100% {opacity: 0.35;}
+}
+
+.lexi .hero .left-door {
+  background-color:#653717;
+  position: absolute;
+  top:-20%;
+  left: -75%;
+  width: 100%;
+  height: 210%;
+  transform: rotate(75deg);
+  opacity:0.9;
+  animation-name:l-door;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+.lexi .hero .right-door {
+  background-color:#653717;
+  position: absolute;
+  top:-20%;
+  left:75%;
+  width: 100%;
+  height: 210%;
+  transform: rotate(75deg);
+  opacity:0.9;
+  animation-name:r-door;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes l-door {
+  0% {left: -21%; opacity: 1;}
+  100% {left: -75%; opacity: 0.9;}
+}
+@keyframes r-door {
+  0% {left: 35%; opacity: 1;}
+  100% {left: 75%; opacity: 0.9;}
 }
 
 .lexi .hero h1 {
