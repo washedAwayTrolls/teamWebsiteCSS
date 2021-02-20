@@ -617,6 +617,32 @@ h2 #blueh2{
   font-size: 20px;
 }
 
+.emilyPage {
+  width: 100%;
+  display: flex;
+}
+.emilyPage .emilySidebar {
+  background-color:#cccccc;
+  width:30%;
+  padding: 80px 30px 80px 80px;
+}
+
+.emilyPage .emilySidebar .emilyImage {
+  margin:0 auto;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.emilyPage .emilySidebar .emilyImage img {
+  border-radius: 50%;
+  width:60%;
+  box-shadow: 0 3px 35px rgba(0,0,0,0.15);
+}
+.emilyPage .emilyContent {
+  width:70%;
+  padding: 80px 60px 60px 180px;
+}
+
 .emilyWeirdBanner {
   width: 100%;
   position: absolute;
@@ -667,7 +693,7 @@ h2 #blueh2{
   border-radius: 50%;
   position: relative;
   top: 280px;
-  left: 230px;
+  left: 232px;
   opacity: 20%;
   animation: shadow 1s infinite;
 }
