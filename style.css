@@ -648,6 +648,11 @@ a.btn-gold:hover, a.btn-gold:active {
   margin-top: 5rem;
 }
 
+.carlos-page li{
+  color:brown;
+}
+
+
 .Carlos-Image{
   border:5px solid #1a3283;
   height: 100px;
