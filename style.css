@@ -359,6 +359,28 @@ footer a {
 .insectDescription {
   font-size:13px;
 }
+
+.antAnimation {
+  animation-name:ant;
+  animation-direction:normal;
+  animation-duration:59s;
+  animation-iteration-count:infinite;
+}
+
+@keyframes ant {
+  0% {
+    margin-left:0;
+    margin-top:0;
+  }
+  50% {
+    margin-left:200px;
+    margin-top:40px;
+  }
+  100% {
+    margin-left:400px;
+    margin-top:0px;
+  }
+}
 /*------------------------------------------- Lexi -------------------------------------------*/
 body.lexi {
   margin:0;
